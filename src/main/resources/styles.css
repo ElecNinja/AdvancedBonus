@@ -1,0 +1,61 @@
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: #2a2a40;
+    -fx-background-radius: 12;
+    -fx-border-radius: 6;
+    -fx-border-color: #1e90ff;
+    -fx-border-width: 3;
+    -fx-background-insets: 0, 0, 0, 0;
+    -fx-effect: dropshadow(gaussian, #1e90ff, 10, 0.1, 0, 0);
+}
+.button:hover{
+    -fx-background-color: #1e90ff;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #1e90ff , 15, .5, 0, 0);
+}
+.combo-box {
+    -fx-background-color: #2a2a40;
+    -fx-border-color: #1e90ff;
+    -fx-border-width: 3;
+    -fx-border-radius: 4px;
+}
+.combo-box .list-cell {
+    -fx-background-color: #2a2a40;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+.combo-box .list-cell:hover {
+    -fx-background-color: #1e90ff;
+    -fx-text-fill: black;
+}
+.title{
+    -fx-text-fill: #1e90ff;
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, #1e90ff, 5, 0.1, 0, 0);
+}
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(gaussian, #1e90ff, 3, 0.1, 0, 0);
+}
+.text-field {
+    -fx-background-color: #2a2a40;
+    -fx-text-fill: white;
+    -fx-border-color: #1e90ff;
+    -fx-border-width: 3;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+.password-field {
+    -fx-background-color: #2a2a40;
+    -fx-text-fill: white;
+    -fx-border-color: #1e90ff;
+    -fx-border-width: 3;
+    -fx-border-radius: 4px;
+    -fx-padding: 5px;
+}
